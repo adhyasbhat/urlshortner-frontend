@@ -1,0 +1,44 @@
+.logo{
+    width: 5%;
+}
+.logoIcon{
+height: 4rem;
+width: 4rem;
+}
+.heading{
+    font-size: 2rem;
+    width: 95%;
+    align-items: center;
+    font-weight: 700;
+}
+.heading2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.urlDetails,.prevUrl {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.urlDetails{
+    height: 8rem;
+    display: grid;
+    align-items: center;
+}
+.urlName,.url,.shortURLValue{
+    background: white;
+    width: 23.5rem;
+    height: 2.5rem;
+    border: none;
+}
+.cut, .copy{
+    background: white;
+
+}
+.cutIcon, .copyIcon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.prevUrl{
+    height: 25rem;
+    margin-top: 4rem;
+}
