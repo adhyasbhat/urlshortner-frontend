@@ -32,13 +32,28 @@ width: 4rem;
 }
 .cut, .copy{
     background: white;
+    cursor: pointer;
 
 }
 .cutIcon, .copyIcon{
     width: 2.5rem;
     height: 2.5rem;
 }
+.cutIcon{
+    rotate: 45deg;
+}
 .prevUrl{
     height: 25rem;
     margin-top: 4rem;
+}
+.urlItem {
+    background:white ;
+}
+.url_name{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.urlHistory{
+    height: 20rem;
+    overflow: auto;
 }
